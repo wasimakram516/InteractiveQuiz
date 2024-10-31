@@ -30,6 +30,7 @@ function OptionButton({ option, handleAnswer, optionLetter }) {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          textAlign:"center",
           padding: 0,
           "&:hover": {
             backgroundColor: optionStyles[optionLetter]?.color,
