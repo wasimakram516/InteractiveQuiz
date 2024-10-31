@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/InteractiveQuiz/static/css/main.f4216307.css",
+    "main.js": "/InteractiveQuiz/static/js/main.c1ce0059.js",
+    "static/js/453.ee5453b5.chunk.js": "/InteractiveQuiz/static/js/453.ee5453b5.chunk.js",
+    "static/media/3.jpg": "/InteractiveQuiz/static/media/3.6ffe2c418422000920d9.jpg",
+    "static/media/8.jpg": "/InteractiveQuiz/static/media/8.c77f77eb86f0be590658.jpg",
+    "static/media/2.jpg": "/InteractiveQuiz/static/media/2.1fc07898e8e75d1b6866.jpg",
+    "static/media/1.jpg": "/InteractiveQuiz/static/media/1.c0f8b396d1172e886aae.jpg",
+    "static/media/6.jpg": "/InteractiveQuiz/static/media/6.6ea11adde6d99c40a763.jpg",
+    "static/media/5.jpg": "/InteractiveQuiz/static/media/5.bd9604ea62d65db63346.jpg",
+    "static/media/4.jpg": "/InteractiveQuiz/static/media/4.c9e8bf13954ac7910e84.jpg",
+    "static/media/9.jpg": "/InteractiveQuiz/static/media/9.1a8120fc946a1616b253.jpg",
+    "static/media/Background.webp": "/InteractiveQuiz/static/media/Background.f321caabc7d94ac1a694.webp",
+    "static/media/START.webp": "/InteractiveQuiz/static/media/START.3d836f19638ec0d5bdfc.webp",
+    "static/media/17.jpg": "/InteractiveQuiz/static/media/17.9e69dcf5e86439aee578.jpg",
+    "static/media/15.jpg": "/InteractiveQuiz/static/media/15.5cf7577951575dc245f8.jpg",
+    "static/media/16.jpg": "/InteractiveQuiz/static/media/16.d23654a8a6651320e21a.jpg",
+    "static/media/14.jpg": "/InteractiveQuiz/static/media/14.4883a62c6d5c85ee16f8.jpg",
+    "static/media/10.jpg": "/InteractiveQuiz/static/media/10.800363fffba0cd49c93d.jpg",
+    "static/media/7.jpg": "/InteractiveQuiz/static/media/7.e87e191108dd28527cca.jpg",
+    "static/media/InteractiveQuiz.webp": "/InteractiveQuiz/static/media/InteractiveQuiz.6576a091558072b5e2cf.webp",
+    "static/media/13.jpg": "/InteractiveQuiz/static/media/13.edec87287730b86d4126.jpg",
+    "index.html": "/InteractiveQuiz/index.html",
+    "main.f4216307.css.map": "/InteractiveQuiz/static/css/main.f4216307.css.map",
+    "main.c1ce0059.js.map": "/InteractiveQuiz/static/js/main.c1ce0059.js.map",
+    "453.ee5453b5.chunk.js.map": "/InteractiveQuiz/static/js/453.ee5453b5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4216307.css",
+    "static/js/main.c1ce0059.js"
+  ]
+}
