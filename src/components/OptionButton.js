@@ -20,8 +20,8 @@ function OptionButton({ option, handleAnswer, optionLetter }) {
     >
       <Box
         sx={{
-          width: "80px",
-          height: "80px",
+          width: ["60px","70px","80px"],
+          height: ["60px","70px","80px"],
           margin: '10px',
           display: 'flex',
           justifyContent: 'center',

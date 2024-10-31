@@ -45,13 +45,13 @@ function QuizScreen({ endGame, quizData, currentQuestionIndex, restartGame }) {
         onClick={restartGame}
         sx={{
           position: "fixed",
-          top: "20px",
+          top: "10px",
           right: "20px",
-          fontSize: "20px",
+          fontSize: "18px",
           backgroundColor: theme.palette.secondary.main,
           color: "#FFFFFF",
-          padding: "10px 20px",
-          borderRadius: "8px",
+          padding: "20px",
+          borderRadius: "20px",
           fontWeight: "bold",
           zIndex: 1000,
         }}
@@ -67,7 +67,7 @@ function QuizScreen({ endGame, quizData, currentQuestionIndex, restartGame }) {
         {currentQuestionIndex + 1}
       </Typography>
 
-      <Typography variant="h4" gutterBottom sx={{ marginBottom: "30px" }}>
+      <Typography variant="h4" gutterBottom sx={{ fontWeight:"bold", marginBottom: "30px" }}>
         {currentQuestion.question}
       </Typography>
 
