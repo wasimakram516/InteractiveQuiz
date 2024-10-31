@@ -1,14 +1,15 @@
 import React from "react";
-import { Box, Button,  } from "@mui/material";
+import { Box, Button, Typography } from "@mui/material";
 import Start from "../assets/Intro/START.webp";
-import interactiveQuiz from "../assets/Intro/InteractiveQuiz.webp"
 import "../App.css"; // Import global styles
 
 function StartScreen({ startGame }) {
   return (
     <Box className="start-screen">
-      <img src={interactiveQuiz} alt="Interactive Quiz" className="game-title"/>
 
+      <Typography variant="h2" className="game-title">
+      اختبار عن كائنات مهددة بالانقراض واشجار عمانية
+      </Typography>
       {/* Start Button */}
       <Button
         variant="startButton"

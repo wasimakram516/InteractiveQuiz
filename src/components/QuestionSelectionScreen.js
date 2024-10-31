@@ -38,7 +38,7 @@ function QuestionSelectionScreen({ quizData, selectQuestion }) {
             textAlign: 'center',
           }}
         >
-          اختبار فريق بصمتنا غير التطوعي
+          اختبار عن كائنات مهددة بالانقراض واشجار عمانية
         </Typography>
 
         <Grid container spacing={2} justifyContent="center">
