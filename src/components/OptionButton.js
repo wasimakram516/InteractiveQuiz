@@ -22,8 +22,8 @@ function OptionButton({ option, handleAnswer, optionLetter }) {
       <Button
         onClick={() => handleAnswer(option)} // Trigger answer handler
         sx={{
-          width: ["60px", "70px", "80px"],
-          height: ["60px", "70px", "80px"],
+          width: "70px",
+          height: "70px",
           backgroundColor: optionStyles[optionLetter]?.backgroundColor,
           color: optionStyles[optionLetter]?.color,
           borderRadius: "50%",
