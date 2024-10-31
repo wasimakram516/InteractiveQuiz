@@ -47,7 +47,7 @@ function QuizScreen({ endGame, quizData, currentQuestionIndex, restartGame }) {
           position: "fixed",
           top: "10px",
           right: "20px",
-          fontSize: "18px",
+          fontSize: ["16px", "18px", "20px"],
           backgroundColor: theme.palette.secondary.main,
           color: "#FFFFFF",
           padding: "20px",
@@ -67,7 +67,11 @@ function QuizScreen({ endGame, quizData, currentQuestionIndex, restartGame }) {
         {currentQuestionIndex + 1}
       </Typography>
 
-      <Typography variant="h4" gutterBottom sx={{ fontWeight:"bold", marginBottom: "30px" }}>
+      <Typography
+        variant="h4"
+        gutterBottom
+        sx={{ fontWeight: "bold", marginBottom: "30px" }}
+      >
         {currentQuestion.question}
       </Typography>
 

@@ -1,6 +1,7 @@
 import React from 'react';
-import { Box, Button, Typography, Grid, Paper } from '@mui/material';
+import { Box, Typography, Grid, Button, Paper } from '@mui/material';
 import BackgroundImage from '../assets/Section/Background.webp'; 
+
 function QuestionSelectionScreen({ quizData, selectQuestion }) {
   return (
     <Box
@@ -17,57 +18,55 @@ function QuestionSelectionScreen({ quizData, selectQuestion }) {
         padding: '40px',
       }}
     >
-      {/* Add a Paper component for a card-like appearance */}
       <Paper
         elevation={4}
         sx={{
           padding: '30px',
           borderRadius: '15px',
-          backgroundColor: 'rgba(255, 255, 255, 0.8)', // Slight transparency for better readability
+          backgroundColor: 'rgba(255, 255, 255, 0.8)',
           boxShadow: '0 6px 16px rgba(0, 0, 0, 0.2)',
+          width: '100%',
+          maxWidth: '400px', // Optional max-width to control button layout
         }}
       >
-        {/* Add a heading with improved typography */}
         <Typography 
-          variant="h2" 
+          variant="h4" 
           gutterBottom 
           sx={{ 
             fontWeight: 'bold',
-            marginBottom: '40px',
+            marginBottom: '20px',
             textAlign: 'center',
           }}
         >
           اختبار فريق بصمتنا غير التطوعي
         </Typography>
 
-        {/* Use Grid layout for the buttons */}
         <Grid container spacing={2} justifyContent="center">
-          {quizData.map((question, index) => (
-            <Grid item xs={6} sm={6} key={index}>
+          {quizData.map((_, index) => (
+            <Grid item xs={6} sm={4} key={index}>
               <Button
                 variant="contained"
                 fullWidth
                 onClick={() => selectQuestion(index)}
                 sx={{
-                  backgroundColor: 'primary.main', 
+                  backgroundColor: 'primary.main',
                   color: '#fff',
                   fontWeight: 'bold',
                   padding: '12px',
                   textTransform: 'none',
                   borderRadius: '8px',
-                  justifyContent: 'center', // Align text to the left
-                  paddingLeft: '20px', // Add padding to give space on the left
-                  whiteSpace: 'normal', // Allow multiline text
-                  textAlign: 'left', // Ensure text alignment to the left
+                  display: 'flex',
+                  justifyContent: 'center', // Center text horizontally
+                  alignItems: 'center',      // Center text vertically
+                  textAlign: 'center',        // Ensure text alignment in center
                   '&:hover': {
-                    backgroundColor: 'primary.light', // Hover effect
+                    backgroundColor: 'primary.light',
                   },
                 }}
               >
-                <Typography variant='h2'>
-                {`${index + 1}`}
+                <Typography variant='h5' sx={{ fontWeight: 'bold', textAlign: 'center' }}>
+                  {`${index + 1}`}
                 </Typography>
-                
               </Button>
             </Grid>
           ))}
