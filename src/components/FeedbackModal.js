@@ -14,7 +14,7 @@ function FeedbackModal({ open, isCorrect, feedbackDetail, handleNextQuestion }) 
         }}
       >
         <Box display="flex" alignItems="center" justifyContent="space-between">
-          {isCorrect ? "أحسنت!" : "عذرًا، ليست الإجابة الصحيحة"}
+          {isCorrect ? "إجابة صحيحة، أحسنت!" : "إجابة خاطئة!"}
           <IconButton onClick={handleNextQuestion} color="inherit">
             <CloseIcon />
           </IconButton>
