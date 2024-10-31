@@ -90,7 +90,7 @@ function QuizScreen({ endGame, quizData, currentQuestionIndex, restartGame }) {
             gutterBottom
             sx={{ marginBottom: "12px" }}
           >
-            {option.text}
+            {index+1}. {option.text}
           </Typography>
         ))}
       </Box>

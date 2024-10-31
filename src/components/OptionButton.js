@@ -38,7 +38,7 @@ function OptionButton({ option, handleAnswer, optionLetter }) {
         }}
       >
         <Typography
-          variant="h5"
+          variant="h2"
           sx={{ fontWeight: "bold", textAlign: "center" }}
         >
           {optionLetter}
