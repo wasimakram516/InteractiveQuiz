@@ -59,7 +59,7 @@ const quizData = [
   {
     question: "ما هو نوع الحيوان الموضح في الصورة أدناه؟",
     options: shuffleArray([
-      { text: "النمر الكنغر", isCorrect: true },
+      { text: "الكنغر", isCorrect: true },
       { text: "آكل النمل", isCorrect: false },
       { text: "الثعلب", isCorrect: false },
     ]),
